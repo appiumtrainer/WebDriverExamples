@@ -23,6 +23,9 @@ public class GoogleImageSearchTest extends BaseTestCase{
     @BeforeMethod
     public void setUp() throws Exception {
         driver = DriverFactory.getDriver(DriverFactory.Browsers.FIREFOX);
+        //provide your URL
+        //Test git commands
+        //Check the command lines below
         driver.get("http://www.google.com");
     }
 
