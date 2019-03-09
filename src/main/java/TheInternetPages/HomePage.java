@@ -23,5 +23,8 @@ public class HomePage {
         driver.findElement(loginLink).click();
 
         return new LoginPage(this.driver);
+
+
+        // Test git commands 
     }
 }
